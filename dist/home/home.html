@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="home.min.css">
+</head>
+<body>
+    <header>
+    <div class="h-top">
+        <div class="container">
+            <div class="header-directions">
+                <button class="header-tab-btn shop">Магазин</button>
+                <button class="header-tab-btn school active">Школа</button>
+                <button class="header-tab-btn wholesale">Опт</button>
+            </div>
+        </div>
+    </div>
+    <div class="h-middle">
+        <div class="container">
+            <div class="header-info">
+                <div class="header-logo">
+                    <img src=" " alt="logo"/>
+                    <div class="city-select">
+                        Санкт-Петербург
+                    </div>
+                </div>
+                <div class="header-contacts">
+                    <p class="sup-phone">Ежедневно 7:00-22:00 (мск)</p>
+                    <p class="phone">8(800)550-98-50</p>
+                    <p class="sub-phone"><span>Заказ звонка</span> или <span>чат</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-nav">
+        <div class="container">
+            <ul class="horizontal-menu school-menu">
+                <li><a href="" class="horizontal-menu-link active">Доставка</a></li>
+                <li><a href="" class="horizontal-menu-link">Магазины</a></li>
+                <li><a href="" class="horizontal-menu-link">Акции</a></li>
+                <li><a href="" class="horizontal-menu-link">Распродажа</a></li>
+                <li><a href="" class="horizontal-menu-link">О комании</a></li>
+                <li><a href="" class="horizontal-menu-link">Контакты</a></li>
+                <li><a href="" class="horizontal-menu-link">Товары ParisNail</a></li>
+            </ul>
+            <div class="dropdown">
+                <button class="dropbtn">Еще</button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-dash">
+        <div class="container">
+            <div class="left-side">
+                <div class="burger">
+                    <div class="burger-elements-wrapper">
+                        <span class="burger-elements-wrapper_top"></span>
+                        <span class="burger-elements-wrapper_middle"></span>
+                        <span class="burger-elements-wrapper_bottom"></span>
+                    </div>
+                    <span>Товары</span>
+                </div>
+                <button class="search-input-btn_outer"><img src={search} alt=""/></button>
+                <div class="search-input-wrapper">
+                    <input type="text" value="Найти" class="search-input"/>
+                    <button class="search-input-btn"><img src={search} alt=""/></button>
+                </div>
+
+            </div>
+            <div class="right-side">
+                <div class="right-side_favorites"><a href=""><img src={favorites} alt=""/><span>Избранное</span></a></div>
+                <div class="right-side_auth"><a href=""><img src={auth} alt=""/><span>Авторизация</span></a></div>
+                <div class="right-side_cart"><a href=""><img src={cart} alt=""/><span>Корзина</span> <span>(666)</span></a></div>
+            </div>
+        </div>
+    </div>
+</header>
+    <div>
+    <div class="container">
+        <nav class="breadcrumb">
+            <ul>
+                <li><a href="">ParisNail</a></li>
+                <li><a href="">О компании</a></li>
+                <li><a href="" class="page">Доставка</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+    <div class="banner-block">
+    <div class="container">
+        <div class="owl-theme">
+            <div class="Item banner-item">
+                <div class="itemCard-photo">
+                    <img src=" " alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="tab_sliders">
+    <div class="container">
+        <div class="tab_slider_top">
+            <div class="buttons_wrapper">
+                <div class="left-btns">
+                    <button class="tab-btn active">Хиты продаж</button>
+                    <button class="tab-btn">Новинки</button>
+                    <button class="tab-btn">Скидки</button>
+                    <button class="tab-btn">Акции</button>
+                </div>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+    <div class="item-top">
+        <div class="itemCard-photo">
+            <img src={item} alt=""/>
+        </div>
+        <div class="itemCard-descr">Профессиональная лампа UV/LED Pro 6 48 Вт белая ParisNail</div>
+        <div class="itemCard-price"><span class="leftSide">Цена</span><span class="rightSide">9 900 ₽</span></div>
+        <div class="btn_wrap">
+            <button class="cart-btn">В корзину</button>
+        </div>
+
+        <div class="itemCardTop">
+            <div class="top_new">
+                <span>NEW!</span>
+            </div>
+            <div class="top_top">
+                <img src={top} alt=""/>
+                <span>ХИТ!</span>
+            </div>
+            <div class="top_like">
+                <img src={like1} alt="like"/>
+            </div>
+        </div>
+    </div>
+    <div class="item-bottom">
+        <div class="itemCard-photo">
+            <img src={item} alt=""/>
+        </div>
+        <div class="itemCard-descr">Профессиональная лампа UV/LED Pro 6 48 Вт белая ParisNail</div>
+        <div class="itemCard-price"><span class="leftSide">Цена</span><span class="rightSide">9 900 ₽</span></div>
+        <div class="btn_wrap">
+            <button class="cart-btn">В корзину</button>
+        </div>
+
+        <div class="itemCardTop">
+            <div class="top_new">
+                <span>NEW!</span>
+            </div>
+            <div class="top_top">
+                <img src={top} alt=""/>
+                <span>ХИТ!</span>
+            </div>
+            <div class="top_like">
+                <img src={like1} alt="like"/>
+            </div>
+        </div>
+    </div>
+
+</div>
+                <div class="item">
+    <div class="item-top">
+        <div class="itemCard-photo">
+            <img src={item} alt=""/>
+        </div>
+        <div class="itemCard-descr">Профессиональная лампа UV/LED Pro 6 48 Вт белая ParisNail</div>
+        <div class="itemCard-price"><span class="leftSide">Цена</span><span class="rightSide">9 900 ₽</span></div>
+        <div class="btn_wrap">
+            <button class="cart-btn">В корзину</button>
+        </div>
+
+        <div class="itemCardTop">
+            <div class="top_new">
+                <span>NEW!</span>
+            </div>
+            <div class="top_top">
+                <img src={top} alt=""/>
+                <span>ХИТ!</span>
+            </div>
+            <div class="top_like">
+                <img src={like1} alt="like"/>
+            </div>
+        </div>
+    </div>
+    <div class="item-bottom">
+        <div class="itemCard-photo">
+            <img src={item} alt=""/>
+        </div>
+        <div class="itemCard-descr">Профессиональная лампа UV/LED Pro 6 48 Вт белая ParisNail</div>
+        <div class="itemCard-price"><span class="leftSide">Цена</span><span class="rightSide">9 900 ₽</span></div>
+        <div class="btn_wrap">
+            <button class="cart-btn">В корзину</button>
+        </div>
+
+        <div class="itemCardTop">
+            <div class="top_new">
+                <span>NEW!</span>
+            </div>
+            <div class="top_top">
+                <img src={top} alt=""/>
+                <span>ХИТ!</span>
+            </div>
+            <div class="top_like">
+                <img src={like1} alt="like"/>
+            </div>
+        </div>
+    </div>
+
+</div>
+                <div class="item">
+    <div class="item-top">
+        <div class="itemCard-photo">
+            <img src={item} alt=""/>
+        </div>
+        <div class="itemCard-descr">Профессиональная лампа UV/LED Pro 6 48 Вт белая ParisNail</div>
+        <div class="itemCard-price"><span class="leftSide">Цена</span><span class="rightSide">9 900 ₽</span></div>
+        <div class="btn_wrap">
+            <button class="cart-btn">В корзину</button>
+        </div>
+
+        <div class="itemCardTop">
+            <div class="top_new">
+                <span>NEW!</span>
+            </div>
+            <div class="top_top">
+                <img src={top} alt=""/>
+                <span>ХИТ!</span>
+            </div>
+            <div class="top_like">
+                <img src={like1} alt="like"/>
+            </div>
+        </div>
+    </div>
+    <div class="item-bottom">
+        <div class="itemCard-photo">
+            <img src={item} alt=""/>
+        </div>
+        <div class="itemCard-descr">Профессиональная лампа UV/LED Pro 6 48 Вт белая ParisNail</div>
+        <div class="itemCard-price"><span class="leftSide">Цена</span><span class="rightSide">9 900 ₽</span></div>
+        <div class="btn_wrap">
+            <button class="cart-btn">В корзину</button>
+        </div>
+
+        <div class="itemCardTop">
+            <div class="top_new">
+                <span>NEW!</span>
+            </div>
+            <div class="top_top">
+                <img src={top} alt=""/>
+                <span>ХИТ!</span>
+            </div>
+            <div class="top_like">
+                <img src={like1} alt="like"/>
+            </div>
+        </div>
+    </div>
+
+</div>
+                <div class="item">
+    <div class="item-top">
+        <div class="itemCard-photo">
+            <img src={item} alt=""/>
+        </div>
+        <div class="itemCard-descr">Профессиональная лампа UV/LED Pro 6 48 Вт белая ParisNail</div>
+        <div class="itemCard-price"><span class="leftSide">Цена</span><span class="rightSide">9 900 ₽</span></div>
+        <div class="btn_wrap">
+            <button class="cart-btn">В корзину</button>
+        </div>
+
+        <div class="itemCardTop">
+            <div class="top_new">
+                <span>NEW!</span>
+            </div>
+            <div class="top_top">
+                <img src={top} alt=""/>
+                <span>ХИТ!</span>
+            </div>
+            <div class="top_like">
+                <img src={like1} alt="like"/>
+            </div>
+        </div>
+    </div>
+    <div class="item-bottom">
+        <div class="itemCard-photo">
+            <img src={item} alt=""/>
+        </div>
+        <div class="itemCard-descr">Профессиональная лампа UV/LED Pro 6 48 Вт белая ParisNail</div>
+        <div class="itemCard-price"><span class="leftSide">Цена</span><span class="rightSide">9 900 ₽</span></div>
+        <div class="btn_wrap">
+            <button class="cart-btn">В корзину</button>
+        </div>
+
+        <div class="itemCardTop">
+            <div class="top_new">
+                <span>NEW!</span>
+            </div>
+            <div class="top_top">
+                <img src={top} alt=""/>
+                <span>ХИТ!</span>
+            </div>
+            <div class="top_like">
+                <img src={like1} alt="like"/>
+            </div>
+        </div>
+    </div>
+
+</div>
+                <div class="item">
+    <div class="item-top">
+        <div class="itemCard-photo">
+            <img src={item} alt=""/>
+        </div>
+        <div class="itemCard-descr">Профессиональная лампа UV/LED Pro 6 48 Вт белая ParisNail</div>
+        <div class="itemCard-price"><span class="leftSide">Цена</span><span class="rightSide">9 900 ₽</span></div>
+        <div class="btn_wrap">
+            <button class="cart-btn">В корзину</button>
+        </div>
+
+        <div class="itemCardTop">
+            <div class="top_new">
+                <span>NEW!</span>
+            </div>
+            <div class="top_top">
+                <img src={top} alt=""/>
+                <span>ХИТ!</span>
+            </div>
+            <div class="top_like">
+                <img src={like1} alt="like"/>
+            </div>
+        </div>
+    </div>
+    <div class="item-bottom">
+        <div class="itemCard-photo">
+            <img src={item} alt=""/>
+        </div>
+        <div class="itemCard-descr">Профессиональная лампа UV/LED Pro 6 48 Вт белая ParisNail</div>
+        <div class="itemCard-price"><span class="leftSide">Цена</span><span class="rightSide">9 900 ₽</span></div>
+        <div class="btn_wrap">
+            <button class="cart-btn">В корзину</button>
+        </div>
+
+        <div class="itemCardTop">
+            <div class="top_new">
+                <span>NEW!</span>
+            </div>
+            <div class="top_top">
+                <img src={top} alt=""/>
+                <span>ХИТ!</span>
+            </div>
+            <div class="top_like">
+                <img src={like1} alt="like"/>
+            </div>
+        </div>
+    </div>
+
+</div>
+                <div class="item">
+    <div class="item-top">
+        <div class="itemCard-photo">
+            <img src={item} alt=""/>
+        </div>
+        <div class="itemCard-descr">Профессиональная лампа UV/LED Pro 6 48 Вт белая ParisNail</div>
+        <div class="itemCard-price"><span class="leftSide">Цена</span><span class="rightSide">9 900 ₽</span></div>
+        <div class="btn_wrap">
+            <button class="cart-btn">В корзину</button>
+        </div>
+
+        <div class="itemCardTop">
+            <div class="top_new">
+                <span>NEW!</span>
+            </div>
+            <div class="top_top">
+                <img src={top} alt=""/>
+                <span>ХИТ!</span>
+            </div>
+            <div class="top_like">
+                <img src={like1} alt="like"/>
+            </div>
+        </div>
+    </div>
+    <div class="item-bottom">
+        <div class="itemCard-photo">
+            <img src={item} alt=""/>
+        </div>
+        <div class="itemCard-descr">Профессиональная лампа UV/LED Pro 6 48 Вт белая ParisNail</div>
+        <div class="itemCard-price"><span class="leftSide">Цена</span><span class="rightSide">9 900 ₽</span></div>
+        <div class="btn_wrap">
+            <button class="cart-btn">В корзину</button>
+        </div>
+
+        <div class="itemCardTop">
+            <div class="top_new">
+                <span>NEW!</span>
+            </div>
+            <div class="top_top">
+                <img src={top} alt=""/>
+                <span>ХИТ!</span>
+            </div>
+            <div class="top_like">
+                <img src={like1} alt="like"/>
+            </div>
+        </div>
+    </div>
+
+</div>
+                <div class="item">
+    <div class="item-top">
+        <div class="itemCard-photo">
+            <img src={item} alt=""/>
+        </div>
+        <div class="itemCard-descr">Профессиональная лампа UV/LED Pro 6 48 Вт белая ParisNail</div>
+        <div class="itemCard-price"><span class="leftSide">Цена</span><span class="rightSide">9 900 ₽</span></div>
+        <div class="btn_wrap">
+            <button class="cart-btn">В корзину</button>
+        </div>
+
+        <div class="itemCardTop">
+            <div class="top_new">
+                <span>NEW!</span>
+            </div>
+            <div class="top_top">
+                <img src={top} alt=""/>
+                <span>ХИТ!</span>
+            </div>
+            <div class="top_like">
+                <img src={like1} alt="like"/>
+            </div>
+        </div>
+    </div>
+    <div class="item-bottom">
+        <div class="itemCard-photo">
+            <img src={item} alt=""/>
+        </div>
+        <div class="itemCard-descr">Профессиональная лампа UV/LED Pro 6 48 Вт белая ParisNail</div>
+        <div class="itemCard-price"><span class="leftSide">Цена</span><span class="rightSide">9 900 ₽</span></div>
+        <div class="btn_wrap">
+            <button class="cart-btn">В корзину</button>
+        </div>
+
+        <div class="itemCardTop">
+            <div class="top_new">
+                <span>NEW!</span>
+            </div>
+            <div class="top_top">
+                <img src={top} alt=""/>
+                <span>ХИТ!</span>
+            </div>
+            <div class="top_like">
+                <img src={like1} alt="like"/>
+            </div>
+        </div>
+    </div>
+
+</div>
+                <div class="item">
+    <div class="item-top">
+        <div class="itemCard-photo">
+            <img src={item} alt=""/>
+        </div>
+        <div class="itemCard-descr">Профессиональная лампа UV/LED Pro 6 48 Вт белая ParisNail</div>
+        <div class="itemCard-price"><span class="leftSide">Цена</span><span class="rightSide">9 900 ₽</span></div>
+        <div class="btn_wrap">
+            <button class="cart-btn">В корзину</button>
+        </div>
+
+        <div class="itemCardTop">
+            <div class="top_new">
+                <span>NEW!</span>
+            </div>
+            <div class="top_top">
+                <img src={top} alt=""/>
+                <span>ХИТ!</span>
+            </div>
+            <div class="top_like">
+                <img src={like1} alt="like"/>
+            </div>
+        </div>
+    </div>
+    <div class="item-bottom">
+        <div class="itemCard-photo">
+            <img src={item} alt=""/>
+        </div>
+        <div class="itemCard-descr">Профессиональная лампа UV/LED Pro 6 48 Вт белая ParisNail</div>
+        <div class="itemCard-price"><span class="leftSide">Цена</span><span class="rightSide">9 900 ₽</span></div>
+        <div class="btn_wrap">
+            <button class="cart-btn">В корзину</button>
+        </div>
+
+        <div class="itemCardTop">
+            <div class="top_new">
+                <span>NEW!</span>
+            </div>
+            <div class="top_top">
+                <img src={top} alt=""/>
+                <span>ХИТ!</span>
+            </div>
+            <div class="top_like">
+                <img src={like1} alt="like"/>
+            </div>
+        </div>
+    </div>
+
+</div>
+                <div class="item">
+    <div class="item-top">
+        <div class="itemCard-photo">
+            <img src={item} alt=""/>
+        </div>
+        <div class="itemCard-descr">Профессиональная лампа UV/LED Pro 6 48 Вт белая ParisNail</div>
+        <div class="itemCard-price"><span class="leftSide">Цена</span><span class="rightSide">9 900 ₽</span></div>
+        <div class="btn_wrap">
+            <button class="cart-btn">В корзину</button>
+        </div>
+
+        <div class="itemCardTop">
+            <div class="top_new">
+                <span>NEW!</span>
+            </div>
+            <div class="top_top">
+                <img src={top} alt=""/>
+                <span>ХИТ!</span>
+            </div>
+            <div class="top_like">
+                <img src={like1} alt="like"/>
+            </div>
+        </div>
+    </div>
+    <div class="item-bottom">
+        <div class="itemCard-photo">
+            <img src={item} alt=""/>
+        </div>
+        <div class="itemCard-descr">Профессиональная лампа UV/LED Pro 6 48 Вт белая ParisNail</div>
+        <div class="itemCard-price"><span class="leftSide">Цена</span><span class="rightSide">9 900 ₽</span></div>
+        <div class="btn_wrap">
+            <button class="cart-btn">В корзину</button>
+        </div>
+
+        <div class="itemCardTop">
+            <div class="top_new">
+                <span>NEW!</span>
+            </div>
+            <div class="top_top">
+                <img src={top} alt=""/>
+                <span>ХИТ!</span>
+            </div>
+            <div class="top_like">
+                <img src={like1} alt="like"/>
+            </div>
+        </div>
+    </div>
+
+</div>
+                <div class="item">
+    <div class="item-top">
+        <div class="itemCard-photo">
+            <img src={item} alt=""/>
+        </div>
+        <div class="itemCard-descr">Профессиональная лампа UV/LED Pro 6 48 Вт белая ParisNail</div>
+        <div class="itemCard-price"><span class="leftSide">Цена</span><span class="rightSide">9 900 ₽</span></div>
+        <div class="btn_wrap">
+            <button class="cart-btn">В корзину</button>
+        </div>
+
+        <div class="itemCardTop">
+            <div class="top_new">
+                <span>NEW!</span>
+            </div>
+            <div class="top_top">
+                <img src={top} alt=""/>
+                <span>ХИТ!</span>
+            </div>
+            <div class="top_like">
+                <img src={like1} alt="like"/>
+            </div>
+        </div>
+    </div>
+    <div class="item-bottom">
+        <div class="itemCard-photo">
+            <img src={item} alt=""/>
+        </div>
+        <div class="itemCard-descr">Профессиональная лампа UV/LED Pro 6 48 Вт белая ParisNail</div>
+        <div class="itemCard-price"><span class="leftSide">Цена</span><span class="rightSide">9 900 ₽</span></div>
+        <div class="btn_wrap">
+            <button class="cart-btn">В корзину</button>
+        </div>
+
+        <div class="itemCardTop">
+            <div class="top_new">
+                <span>NEW!</span>
+            </div>
+            <div class="top_top">
+                <img src={top} alt=""/>
+                <span>ХИТ!</span>
+            </div>
+            <div class="top_like">
+                <img src={like1} alt="like"/>
+            </div>
+        </div>
+    </div>
+
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="categories">
+    <div class="container">
+        <div class="title">
+            <h2>Наши категории</h2>
+        </div>
+        <div class="categories_wrapper">
+            <div class="categorie_item">
+                <img src={img1} alt=""/>
+                <a class="categorie_btn" href="">Оборудование</a>
+            </div><div class="categorie_item">
+            <img src={img2} alt=""/>
+            <a class="categorie_btn" href="">Оборудование</a>
+        </div><div class="categorie_item">
+            <img src={img3} alt=""/>
+            <a class="categorie_btn" href="">Оборудование</a>
+        </div><div class="categorie_item">
+            <img src={img4} alt=""/>
+            <a class="categorie_btn" href="">Оборудование</a>
+        </div><div class="categorie_item">
+            <img src={img5} alt=""/>
+            <a class="categorie_btn" href="">Оборудование</a>
+        </div>
+
+        </div>
+    </div>
+</div>
+    <div class="instagram">
+    <div class="container">
+        <div class="title">
+            <h2>Наш инстаграм</h2>
+            <a href=""><img src="" alt="insta"/>@parisnail_stamping</a>
+        </div>
+        <div class="instagram_wrapper">
+            <a href="" class="ins_item"><img src="" alt="insta"/></a>
+            <a href="" class="ins_item"><img src="" alt="insta"/></a>
+            <a href="" class="ins_item"><img src="" alt="insta"/></a>
+            <a href="" class="ins_item"><img src="" alt="insta"/></a>
+            <a href="" class="ins_item"><img src="" alt="insta"/></a>
+        </div>
+    </div>
+</div>
+    <div class="offer">
+    <div class="container">
+        <h2>Предложение для крупных клинтов и торговых представителей</h2>
+        <div class="offer_items_wrapper">
+            <div class="offer_item">
+                <div class="offer_item_title">Комфортные условия сотрудничества</div>
+                <hr class="divider"/>
+                <div class="offer_item_descr">
+                    <p><b>скидка от 10%</b>
+                        (при заказе от 10 000 руб.) <b>до 50%</b> (при заказе от 250 000 руб.), возможность обмена
+                        товаров и рассрочка.
+                    </p>
+                </div>
+            </div>
+            <div class="offer_item">
+                <div class="offer_item_title">Профессиональное сопровождение партнера</div>
+                <hr class="divider"/>
+                <div class="offer_item_descr">
+                    <p>у каждого партнера есть <b>персональный менеджер</b>, который оповещает о выгодных предложениях
+                        и консультирует по ассортименту.
+                    </p>
+                </div>
+            </div>
+            <div class="offer_item">
+                <div class="offer_item_title">Обновление и расширение ассортимента</div>
+                <hr class="divider"/>
+                <div class="offer_item_descr">
+                    <p>линейка товаров ParisNail в ближайший год существенно расширится – <b>от гель-лаков
+                        до оборудования</b>.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr class="divider"/>
+        <div class="offer_cta">
+            <h2>Узнать условия оптовых закупок</h2>
+            <div class="btn_wrapper">
+                <a class="offer_btn" href="">Подробнее</a>
+                <a class="offer_btn" href="">Стать представителем ParisNail</a>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="cta">
+    <div class="container">
+        <h2>Продукцию ParisNail уже можно приобрести у наших партнеров</h2>
+        <div class="btn_wrapper">
+            <a class="offer_btn" href="">Посмотреть список партнеров</a>
+        </div>
+    </div>
+</div>
+    <div class="needs">
+    <div class="container">
+        <h2>Мы разработали уникальные технологии, по которым создали товары, удовлетворяющие все
+            потребности:</h2>
+        <div class="needs_items_wrapper">
+            <div class="needs_item">
+                <div class="needs_items__numb">1</div>
+                <div class="needs_items__text">
+                    <div class="needs_item_title">Доступная стоимость</div>
+                    <div class="needs_item_descr">Выгодные цены на рынке и бонусы для клиентов и партнеров
+                    </div>
+                </div>
+            </div>
+            <div class="needs_item">
+                <div class="needs_items__numb">2</div>
+                <div class="needs_items__text">
+                    <div class="needs_item_title">Комфорт в использовании</div>
+                    <div class="needs_item_descr">Удобные тюбики, подробные инструкции, большой объем,
+                        стильная упаковка и др.
+                    </div>
+                </div>
+            </div>
+            <div class="needs_item">
+                <div class="needs_items__numb">3</div>
+                <div class="needs_items__text">
+                    <div class="needs_item_title">Гарантия</div>
+                    <div class="needs_item_descr">Удобные тюбики, подробные инструкции, большой объем,
+                        стильная упаковка и др.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="networks">
+    <div class="container">
+        <h2>Мы в социальных сетях</h2>
+        <div class="social_icons">
+            <a href=""><Vk /></a>
+            <a href=""><Insta /></a>
+            <a href=""><Fb /></a>
+        </div>
+        <p><b>Санкт-Петербург</b></p>
+        <p><b>8 (800) 550-98-50</b></p>
+        <p><b>sales_opt@parisnail.ru</b></p>
+
+    </div>
+</div>
+    <div class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-content_left">
+                <div class="footer-col xs-show">
+                    <div class="footer-social">
+                        <p>ParisNail в соцсетях</p>
+                        <a href=""><img src={vk} alt=""/></a>
+                        <a href=""><img src={insta} alt=""/></a>
+                        <a href=""><img src={youtube} alt=""/></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <ul>
+                        <li>Бонусная программа</li>
+                        <li>Помощь</li>
+                        <li>Доставка и оплата</li>
+                        <li>Как сделать заказ</li>
+                        <li>Возврат</li>
+                        <li>Политика конфиденциальности</li>
+                        <li>Ограничения по скидкам</li>
+                        <li>Beauty-коины</li>
+                        <li>Отзывы о компании</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <ul>
+                        <li>О компании</li>
+                        <li>Блог</li>
+                        <li>Вакансии</li>
+                        <li>Условия оплаты банковской картой</li>
+                        <li>Условия публичной оферты</li>
+                        <li>Сотрудничество</li>
+                        <li>Представители</li>
+                        <li>Борьба с мошенниками</li>
+                        <li>Дипломы и сертификаты</li>
+                        <li>Биржа труда</li>
+                    </ul>
+                </div>
+                <div class="footer-col  xs-hidden">
+                    <ul>
+                        <li>Мобильное приложение</li>
+                        <li class="download-app">
+                            <a href=""><img src={gpay} alt=""/></a>
+                            <a href=""><img src={apppay} alt=""/></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-content_right">
+                <div class="footer-col">
+                    <div class="footer-social xs-hidden">
+                        <p>ParisNail в соцсетях</p>
+                        <a href=""><img src={vk} alt=""/></a>
+                        <a href=""><img src={insta} alt=""/></a>
+                        <a href=""><img src={youtube} alt=""/></a>
+                    </div>
+                    <div class="pay-method">
+                        <p>Способы оплаты</p>
+                        <ul class="group-pay">
+                            <li class="logo-pay">
+                                <img src={visa} alt=""/>
+                            </li>
+                            <li class="logo-pay">
+                                <img src={master} alt=""/>
+                            </li>
+
+                            <li class="logo-pay">
+                                <img src={paykeeper} alt=""/>
+                            </li>
+
+                            <li class="logo-pay">
+                                <img src={apple} alt=""/>
+                            </li>
+                            <li class="logo-pay">
+                                <img src={google} alt=""/>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="other-btns">
+                        <ul class="footer-subscribe">
+                            <li class="xs-show">Мобильное приложение</li>
+                            <li class="download-app xs-show">
+                                <a href=""><img src={gpay} alt=""/></a>
+                                <a href=""><img src={apppay} alt=""/></a>
+                            </li>
+                            <li><a href=""><img src={subs} alt=""/>Подписка на новости</a></li>
+                            <li><a href=""><img src={eye} alt=""/>Версия для слабовидящих</a></li>
+                            <li><a href=""><img src={sitemap} alt=""/>Карта сайта</a></li>
+                        </ul>
+                    </div>
+                    <a class="feedback-btn">Оставить обратную связь</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright"/>
+    </div>
+
+</div>
+
+    <script src="../../assets/js/jquery-3.6.0.js"/>
+    <script src="../../assets/js/owl.carousel.js"/>
+</body>
+</html>
