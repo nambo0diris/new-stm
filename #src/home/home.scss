@@ -1,0 +1,51 @@
+
+body{
+  min-width: 375px;
+  overflow-x: hidden;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.admin-menu{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.inner {
+  width: 100%;
+}
+.container {
+  max-width: 1172px;
+  margin:auto;
+  padding: 0 15px;
+}
+.owl-stage-outer {
+  padding: 15px 0;
+}
+h2{
+  font-size: 36px;
+}
+@media screen and (max-width: 720px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+@import "header";
+@import "crumbs";
+@import "tabsBtns";
+@import "item";
+@import "categories";
+@import "instagram";
+@import "offer";
+@import "needs";
+@import "networks";
+@import "footer";
+
+

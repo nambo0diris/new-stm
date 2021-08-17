@@ -1,0 +1,41 @@
+.networks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+
+}
+.networks>.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.networks>.container> p{
+    margin: 5px;
+    font-size: 20px;
+    font-family: 'FuturaNewDemi-Reg', sans-serif;
+}
+.networks>.container> p:not(:first-of-type){
+    color: #FF527D;
+}
+.social_icons{
+
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-bottom: 24px;
+}
+.social_icons a {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.networks h2 {
+    margin-bottom: 24px;
+    font-family: 'FuturaNewDemi-Reg', sans-serif;
+}
+.networks > p {
+
+    margin: 5px;
+}

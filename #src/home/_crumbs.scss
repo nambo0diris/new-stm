@@ -1,0 +1,37 @@
+.breadcrumb ul {
+    display: flex;
+    flex-direction: row;
+    gap:22px;
+    list-style: none;
+    flex-wrap: nowrap;
+    padding: 0;
+    font-family: 'FuturaNewLight-Reg', sans-serif;
+
+}
+.breadcrumb li{
+    position: relative;
+}
+.breadcrumb li a{
+    white-space: nowrap;
+    text-decoration: none;
+    color: #B1B1B1;
+}
+.breadcrumb li a.page{
+    color: #000000;
+}
+.breadcrumb li::after {
+    position: absolute;
+    content: " ";
+    width: 4px;
+    height: 4px;
+    background: transparent;
+    border-bottom:1px solid #FF527D;
+    border-right:1px solid #FF527D;
+    right: -13px;
+    top: 50%;
+    transform: translate(0%,-50%) rotate(-45deg);
+}
+.breadcrumb li:last-of-type::after {
+    display: none;
+}
+

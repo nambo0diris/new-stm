@@ -1,0 +1,112 @@
+.buttons_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.left-btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.tab-btn {
+
+    cursor: pointer;
+    font-size: 24px;
+    padding: 6px 14px;
+    border-radius: 50px;
+    background: none;
+    border: 2px solid #FFDFDA;
+    line-height: 28px;
+    font-family: 'FuturaNewLight-Reg', sans-serif;
+    font-weight: 300;
+}
+
+.tab-btn:hover {
+    color: #a8a6a6;
+}
+.tab-btn.active {
+    border: 2px solid #FF527D;
+    font-weight: 400;
+}
+
+
+
+.right-btns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 17px;
+}
+@media screen and (max-width: 768px) {
+    .tab-btn{
+        color: rgba(0,0,0,0.5);
+    }
+    .tab-btn.active {
+        color: #FF527D;
+    }
+    .buttons_wrapper {
+        justify-content: center;
+    }
+    .left-btns {
+        width: 100%;
+        gap: 0px;
+        justify-content: space-around;
+    }
+    .tab-btn {
+        font-size: 16px;
+        border:none;
+    }
+    .tab-btn.active {
+        border: none;
+    }
+    .right-btns {
+        display: none;
+    }
+}
+.arrow {
+    cursor: pointer;
+    position: relative;
+    color: transparent;
+    width: 36px;
+    height: 36px;
+    background: #F5F5F5;
+    border-radius: 50px;
+}
+
+
+.left-arrow:before{
+    position: absolute;
+    content: " ";
+    width: 12px;
+    height: 12px;
+    background: transparent;
+    border-bottom:1px solid black;
+    border-right:1px solid black;
+    left: 50%;
+    top: 50%;
+    transform: translate(-30%,-50%) rotate(135deg);
+
+}
+.right-arrow:before{
+    position: absolute;
+    content: " ";
+    width: 12px;
+    height: 12px;
+    background: transparent;
+    border-bottom:1px solid black;
+    border-right:1px solid black;
+    rigth: 50%;
+    top: 50%;
+    transform: translate(70%,-50%) rotate(-45deg);
+}
+ .left-arrow:hover .left-arrow:before{
+    background: #FF527D;
+}

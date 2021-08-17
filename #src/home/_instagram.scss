@@ -1,0 +1,40 @@
+.instagram{
+
+}
+.instagram .title a {
+    color: #FF527D;
+}
+.instagram .title a>img {
+    width: 19px;
+    height: 19px;
+    margin-right: 10px;
+}
+.instagram .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    font-family: 'FuturaNewDemi-Reg', sans-serif;
+
+}
+.instagram .title>a {
+    display: flex;
+    align-items: center;
+}
+.instagram_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+.ins_item {
+    border-radius: 8px;
+    flex: 1;
+    max-width: 220px;
+}
+.ins_item>a> {
+    margin: auto;
+    max-width: 220px;
+}
+

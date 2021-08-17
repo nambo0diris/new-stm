@@ -1,0 +1,123 @@
+.offer{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+
+}
+.offer.title {
+    text-align: center;
+
+
+}
+.offer h2:first-of-type{
+    text-align: center;
+    font-family: 'FuturaNewDemi-Reg', sans-serif;
+}
+.offer_items_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    margin-bottom: 50px;
+}
+.offer_item {
+    background: #FFEEEB;
+    border-radius: 16px;
+    padding: 30px 14px 40px 14px;
+    max-width: 223px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+.offer_item_title{
+    font-family: 'FuturaNewDemi-Reg', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #FF527D;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+
+.offer_item_descr{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'FuturaNewLight-Reg', sans-serif;
+}
+.offer_cta {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'FuturaNewDemi-Reg', sans-serif;
+}
+
+.btn_wrapper{
+    width: 364px;
+}
+
+.offer_btn{
+    font-family: 'FuturaNewDemi-Reg', sans-serif;
+    text-align: center;
+}
+.offer_btn:first-child {
+    border-radius: 8px;
+    font-size: 18px;
+    border: 1px solid #FF527D;
+    height: 40px;
+    background: #FF527D;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.offer_btn:first-child:hover {
+    background: #FFFFFF;
+    border: 1px solid #FF527D;
+    color: #FF527D;
+
+}
+.offer_btn:nth-child(2):hover {
+    border: 1px solid #FF527D;
+    background: #FF527D;
+    color: #FFFFFF;
+}
+.offer_btn:nth-child(2) {
+    border-radius: 8px;
+    font-size: 18px;
+
+    height: 40px;
+    border: 1px solid #FF527D;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.divider {
+    width: 33%;
+    background: #FF527D;
+    border: none;
+    height: 1px;
+}
+
+@media screen and (max-width: 720px){
+    .offer_item_title{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .offer_item_descr{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .btn_wrapper{
+        width: 290px;
+    }
+}
